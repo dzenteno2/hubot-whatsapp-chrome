@@ -1,7 +1,12 @@
 {
-  "name": "Hubot Adapter for Whatsapp",
+  "name": "Gus Whatsapp Logger",
   "version": "0.1.0",
-  "permissions": [
+  "icons": {
+    "16": "gus.jpg",
+    "48": "gus.jpg",
+    "128": "gus.jpg"
+  },
+  "permissions" : [
     "activeTab"
   ],
   "background": {
@@ -14,7 +19,7 @@
     "matches": ["*://web.whatsapp.com/*"]
   },
   "browser_action": {
-    "default_title": "Start"
+    "default_title": "Gus Whatsapp Logger"
   },
   "manifest_version": 2
 }
